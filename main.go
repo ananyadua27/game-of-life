@@ -195,7 +195,5 @@ func main() {
 	http.HandleFunc("/ws", handleWS)
 
 	go tickLoop()
-
-	log.Println("Server running at http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
