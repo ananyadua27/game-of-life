@@ -1,6 +1,6 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
-const socket = new WebSocket(`ws://${location.host}/ws`);
+const socket = new WebSocket('wss://game-of-life-production-548d.up.railway.app/ws');
 
 const rows = 200;
 const cols = 200;
