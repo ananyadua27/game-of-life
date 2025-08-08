@@ -21,7 +21,7 @@ An interactive, real-time implementation of Conway's Game of Life, built with Go
 | Layer         | Technology                          |
 |--------------|--------------------------------------|
 | Backend       | **Go (Golang)** - concurrency, WebSocket server |
-| Frontend      | **JavaScript (Vanilla)** - Canvas API rendering |
+| Frontend      | **JavaScript** - Canvas API rendering |
 | Communication | **WebSockets** via Gorilla WebSocket |
 | Web Server    | `net/http` in Go, static file serving |
 | Rendering     | HTML5 `<canvas>` + Unicode emojis   |
