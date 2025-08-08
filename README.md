@@ -43,8 +43,6 @@ cd backend
 go run main.go
 ```
 
-### 3. Run the frontend
-
 ## Usage
 
 - **Click cells** to toggle them alive/dead
@@ -56,6 +54,5 @@ go run main.go
 ## License
 
 This project is licensed under the MIT License.
-
 
 
